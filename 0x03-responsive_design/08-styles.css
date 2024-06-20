@@ -849,7 +849,7 @@ ul.row {
   opacity: 1;
 }
 
-@media only screen (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .card-work .card-inner {
     color: var(--color-white);
     position: relative;
@@ -863,6 +863,7 @@ ul.row {
     padding: 2rem 1rem 0 1rem;
   }
 }
+
 
 /* Card SERVICES
       ============================= */
